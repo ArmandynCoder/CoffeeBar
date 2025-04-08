@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Playfair,Poppins/Poppins/Poppins-Light.ttf');
+}
+.navBar{
+    width: 100%;
+    height: 29.5rem;
+    background-color: #363032;
+}
+.navBarContent ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 3.938rem;
+    margin-top: 8.625rem;
+    gap: 6rem;
+}
+.navBarContent ul li{
+    display: grid;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    margin-top: 8.625rem;
+    cursor: pointer;
+}
+.navBarContent ul li img{
+    margin-bottom: 1rem;
+}
