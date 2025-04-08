@@ -3,7 +3,7 @@ import { Metrics } from './assets/components/Metrics';
 import { NavBar } from './assets/components/NavBar';
 import style from './Styles/App.module.css'
 import './Styles/global.css'
-
+import bannerImage from '../public/images/Hero_images.png'
 
 
 export function App() {
@@ -19,7 +19,7 @@ export function App() {
         <Button />
       </div>
       <div className={style.imageMain}>
-        <img src="../public/img/Hero_images.png" alt="" />
+        <img src={bannerImage} alt="Banner" />
       </div>
     </div>
     <div className='navBar-content'>
